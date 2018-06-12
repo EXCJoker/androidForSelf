@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <title>test</title>
+    <link rel="shortcut icon" href="http://adstatic.ksyun.com/landingpage/20161110/static/img/favicon.ico"
+          type="image/x-icon">
+    <script src="http://adstatic.ksyun.com/landingpage/20161110/static/js/viewport.js"></script>
+    <!-- ˙∆¡-->
+    <link rel="stylesheet" media="all and (orientation:portrait)"
+          href="http://adstatic.ksyun.com/landingpage/20161110/static/css/portrait.css">
+    <!--∫·∆¡-->
+    <link rel="stylesheet" media="all and (orientation:landscape)"
+          href="http://adstatic.ksyun.com/landingpage/20161110/static/css/landscape.css">
+</head>
+<body>
+
+<!-- ˙∆¡±≥æ∞-->
+<div class="imgBoxPort" style="background-image: url(http://kscdn.ksyun.com/s2/img/20180413/1523617544772vkn2v24ukb.jpg)">
+    <div class="maskBox">
+        <div class="mask"></div>
+        <div class="imgTitle">
+            <div class="imgLogo">
+                <img src="http://kscdn.ksyun.com/s2/img/20180413/1523617531097rhqup0x2vci.png">
+            </div>
+            <div class="imgSum">
+                <div class="imgText">…≥∫–≤‚ ‘</div>
+                <div class="imgStar"><img src="http://adstatic.ksyun.com/landingpage/20161110/static/img/start.png">
+                </div>
+            </div>
+        </div>
+        <div class="imgBtn"><a class="link"><img class="btn"
+                                                 src="http://adstatic.ksyun.com/landingpage/20161110/static/img/v_mask_2.png">
+        </a></div>
+    </div>
+</div>
+
+
+<!--∫·∆¡±≥æ∞-->
+<div class="imgBoxLand" style="background-image: url(http://kscdn.ksyun.com/s2/img/20180413/1523617561130ydm61v1m9k.jpg)">
+    <div class="maskBox">
+        <div class="mask"></div>
+        <div class="imgTitle">
+            <div class="imgLogo">
+                <img src="http://kscdn.ksyun.com/s2/img/20180413/1523617531097rhqup0x2vci.png">
+            </div>
+            <div class="imgSum">
+                <div class="imgText">…≥∫–≤‚ ‘</div>
+                <div class="imgStar"><img src="http://adstatic.ksyun.com/landingpage/20161110/static/img/start.png">
+                </div>
+            </div>
+        </div>
+        <div class="imgBtn"><a class="link"><img class="btn"
+                                                 src="http://adstatic.ksyun.com/landingpage/20161110/static/img/h_mask_2.png">
+        </a></div>
+    </div>
+</div>
+<script src="http://adstatic.ksyun.com/landingpage/20161110/static/js/zepto.min.js"></script>
+<script>
+    (function () {
+        var ua = navigator.userAgent.toLowerCase();
+        var reg = new RegExp("Android", "i");
+        var $link = $('.link');
+        var $maskBox = $('.maskBox');
+        var $mask = $('.mask');
+        var $imgTitle = $('.imgTitle');
+        var $imgBtn = $('.imgBtn');
+        var $btn = $('.btn');
+
+        /* Android“˛≤ÿ∂Øª≠dom */
+        window.cssAnimationHide = function () {
+            $mask.removeClass('animation_mask');
+            $imgTitle.removeClass('animation_sum');
+            $imgBtn.removeClass('animation_fadeIn');
+            $btn.removeClass('animation_btn');
+            $maskBox.hide();
+        }
+
+        /* Android∂Àµ˜”√º”‘ÿ∂Øª≠∑Ω∑® */
+        window.cssAnimation = function () {
+            setTimeout(function () {
+                $mask.addClass('animation_mask');
+                $imgTitle.addClass('animation_sum');
+                $imgBtn.addClass('animation_fadeIn');
+                $btn.addClass('animation_btn');
+                $maskBox.show();
+            }, 20)
+        }
+
+        if (reg.test(ua)) {
+            /* Androidœ¬‘ÿ∞¥≈•¡¥Ω” */
+            $link.attr('href', 'http://kscdn.ksyun.com/s2/apk/20180410/1523348592704q9r6x5a734o.apk');
+            cssAnimationHide();
+        } else {
+            /* IOSœ¬‘ÿ∞¥≈•¡¥Ω” */
+            $link.attr('href', 'http://kscdn.ksyun.com/s2/apk/20180410/1523348592704q9r6x5a734o.apk');
+        }
+
+        cssAnimation();
+
+        /* ≈–∂œ∫· ˙∆¡ */
+        window.addEventListener("onorientationchange" in window ? "orientationchange" : "resize", function () {
+            cssAnimationHide();
+            cssAnimation();
+        }, false);
+    }())
+</script>
+</body>
+</html>

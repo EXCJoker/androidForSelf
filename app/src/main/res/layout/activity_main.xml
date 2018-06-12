@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:mContext="com.inmobi.interstitial.sample.InterstitialAdsActivity">
+
+    <Button
+        android:id="@+id/button_load_web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="load"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button_prefetch"
+        android:onClick="load"
+        android:layout_marginTop="96dp"/>
+
+    <RelativeLayout
+        android:id="@+id/container_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        />
+
+
+</RelativeLayout>
