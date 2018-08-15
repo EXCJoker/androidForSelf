@@ -13,6 +13,15 @@
         android:onClick="load"
         android:layout_marginTop="96dp"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add log"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button_load_web"
+        android:onClick="addTextLog"
+        android:layout_marginTop="96dp"/>
+
     <RelativeLayout
         android:id="@+id/container_rl"
         android:layout_width="match_parent"

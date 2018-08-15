@@ -132,7 +132,7 @@ public class LandWebViewUtil {
         //                        "y.bd%40packageid%2B3212592%40docid%2B24041678";
 
         //华为商场
-                String url = "http://app.hicloud.com/app/C10374976";
+                String url = "http://down2.uc.cn/wandj/down.php?id=211&pub=szweidaWDJ1";
 
         //小米商场  需要dom  有listener
 //                String url = "http://app.mi.com/details?id=com.bingougame.tgsw.mi/";

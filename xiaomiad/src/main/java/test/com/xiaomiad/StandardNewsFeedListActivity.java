@@ -1,4 +1,4 @@
-package test.com.xiaomiad;
+package com.xiaomi.ad.demo;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -19,6 +19,8 @@ import com.xiaomi.ad.common.pojo.AdEvent;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import test.com.xiaomiad.R;
 
 /**
  * Created by fangzheyuan on 16-8-12.

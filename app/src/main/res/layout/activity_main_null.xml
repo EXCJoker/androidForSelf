@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:mContext="com.inmobi.interstitial.sample.InterstitialAdsActivity">
+
+    <!--<ScrollView-->
+        <!--android:id="@+id/my_scrrollview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="200dp">-->
+
+            <!--<LinearLayout-->
+                <!--android:id="@+id/my_ll"-->
+                <!--android:layout_width="10dp"-->
+                <!--android:layout_height="10dp"-->
+                <!--android:orientation="vertical"-->
+                <!--android:background="@color/colorPrimary"-->
+                <!--/>-->
+
+            <!--<Button-->
+                <!--android:id="@+id/my_button_two"-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_marginTop="500dp"-->
+                <!--/>-->
+
+            <!--<Button-->
+                <!--android:id="@+id/my_button_three"-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_below="@+id/my_button_two"-->
+                <!--android:layout_marginTop="50dp"-->
+                <!--/>-->
+        <!--</RelativeLayout>-->
+
+    <!--</ScrollView>-->
+    <ListView
+        android:id="@+id/my_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</RelativeLayout>

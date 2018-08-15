@@ -3,4 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="color_3E3E3E">#3E3E3E</color>
+    <color name="color_00ff0000">#00ff0000</color>
+    <color name="color_0000ff00">#0000ff00</color>
+    <color name="color_000000ff">#000000ff</color>
+    <color name="translucent">#0000</color> <!-- 全透明色 -->
 </resources>

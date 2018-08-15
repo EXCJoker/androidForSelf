@@ -1,1 +1,1 @@
-include ':app', ':interstitialSample', ':xiaomiad'
+include ':app', ':interstitialSample', ':xiaomiad', ':glidedemo'
