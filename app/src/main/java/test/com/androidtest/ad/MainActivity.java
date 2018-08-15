@@ -1,4 +1,4 @@
-package test.com.androidtest;
+package test.com.androidtest.ad;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 
+import test.com.androidtest.R;
+import test.com.androidtest.ad.LandWebViewUtil;
 import test.com.androidtest.logonscreen.existservicemode.LogScreenManager;
 
 public class MainActivity extends AppCompatActivity {

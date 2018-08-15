@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import test.com.androidtest.MainActivity;
+import test.com.androidtest.ad.MainActivity;
 import test.com.androidtest.R;
 import test.com.androidtest.logonscreen.existservicemode.LogScreenManager;
 import test.com.androidtest.logonscreen.existservicemode.LogService;

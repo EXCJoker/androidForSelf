@@ -1,4 +1,4 @@
-package test.com.androidtest;
+package test.com.androidtest.ad;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -11,6 +11,8 @@ import com.inmobi.ads.InMobiInterstitial;
 import com.inmobi.sdk.InMobiSdk;
 
 import java.util.Map;
+
+import test.com.androidtest.R;
 
 public class InterstitialAdsActivity extends AppCompatActivity {
     public static final long YOUR_PLACEMENT_ID = 1475973082314L;
