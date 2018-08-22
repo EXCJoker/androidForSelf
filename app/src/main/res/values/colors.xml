@@ -8,4 +8,5 @@
     <color name="color_0000ff00">#0000ff00</color>
     <color name="color_000000ff">#000000ff</color>
     <color name="translucent">#0000</color> <!-- 全透明色 -->
+    <color name="white">#ffffff</color>
 </resources>

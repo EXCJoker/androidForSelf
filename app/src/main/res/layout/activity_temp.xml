@@ -8,16 +8,24 @@
     tools:context="test.com.androidtest.TempActivity">
 
     <Button
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentTop="true"
-        android:text="doAnything"
-        android:onClick="doAnything"
-        />
-    <TextView
-        android:id="@+id/content"
-        android:layout_width="wrap_content"
+        android:id="@+id/clear"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:text="清空"
+        android:onClick="clearUp"
         />
+
+    <test.com.androidtest.biuedittext.BiuEditText
+        android:id="@+id/biu1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="biu,biu,发射1号"
+        android:textColor="@android:color/white"
+        app:biu_duration="800"
+        app:biu_text_color="@android:color/white"
+        app:biu_text_scale="1.5"
+        app:biu_text_start_size="12sp"
+        app:biu_type="flydown" />
+
 </RelativeLayout>
