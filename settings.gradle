@@ -1,1 +1,1 @@
-include ':app',':apkjarDemo'
+include ':app',':apkjarDemo', ':aidldemo'
